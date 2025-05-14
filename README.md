@@ -11,3 +11,14 @@ Provides an endpoint to which a lecture transcript can be passed and summarized 
 | Method | Endpoint | Description |
 | ------ | -------- | ----------- |
 | POST | /summarize | Pass a transcript to Ollama |
+
+### Example Request
+```
+
+```
+
+### Example Receive
+```
+```
+
+### UML Sequence Diagram
