@@ -8,4 +8,6 @@ Provides an endpoint to which a lecture transcript can be passed and summarized 
 - `.env` configuration file with specified PORT
 
 ### API Endpoints
-POST    /summarize    Pass a transcript to ollama
+| Method | Endpoint | Description |
+| ------ | -------- | ----------- |
+| POST | /summarize | Pass a transcript to Ollama |
