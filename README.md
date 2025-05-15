@@ -32,4 +32,4 @@ const response = await fetch('http://localhost:3000/summarize', {
 ```
 
 ### UML Sequence Diagram
-
+![Image](https://github.com/user-attachments/assets/7d9ce6b8-9928-4de0-974f-cf5d12ee019a)
