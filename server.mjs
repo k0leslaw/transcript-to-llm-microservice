@@ -19,7 +19,7 @@ app.listen(PORT, async () => {
  * @returns  {Promise<string>} - Promise that resuloves to the summarized transcript
  */
 async function passTranscript(transcript) {
-    const prompt = 'Take the following lecture transcript and summarize it down to one minute worth of content if the transcript were read aloud. Do not add information that is not present in the provided transcript, and make sure to include every main point in the transcript. Do not add an introductory statement to the response, such as "Here\'s a summary...": ' + transcript;
+    const prompt = 'Take the following lecture transcript and summarize it down to one minute worth of content if the transcript were read aloud. Do not add information that is not present in the provided transcript, and make sure to include every main point in the transcript. Do not add an introductory statement to the response, such as "Here\'s a summary...": \n\n' + transcript;
     const response = await fetch('http://localhost:11434/api/generate', {
         method: 'POST',
         headers: {
